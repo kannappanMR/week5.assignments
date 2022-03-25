@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ServiceNow" parallel="classes" thread-count="4" verbose="5" >
+  <test name="Incident">
+    <classes>
+      <class name="week5.day1.assignments.AssignTheIncident"/>
+      <class name="week5.day1.assignments.UpdateExistingIncident"/>
+      <class name="week5.day1.assignments.CreateNewIncident"/>
+      <class name="week5.day1.assignments.DeleteTheIncident"/>
+    </classes>
+  </test> <!-- Incident -->
+</suite> <!-- ServiceNow -->
